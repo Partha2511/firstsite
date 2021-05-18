@@ -1,0 +1,154 @@
+/* html parameters */
+body {
+  font-family: 'Montserrat';
+  text-align: center;
+}
+h1,h2,h3,h4,h5,h6{
+  font-family: 'Montserrat';
+  font-weight: bold;
+}
+p{
+  font-weight: 500;
+  color: #8f8f8f;
+}
+/* headings */
+.heading {
+  font-family: 'Montserrat';
+  font-weight: bold;
+  line-height: 1.5;
+  font-size: 3.5rem;
+  color: #fff;
+}
+.pricinghead{
+  line-height: 1.5;
+  font-size: 3.5rem;
+}
+/* sections */
+.white-sec{
+  background-color: #fff;
+}
+.coloured-sec{
+  background-color: #ff4c68;
+  color: #fff;
+}
+/* tittle section */
+#title {
+  text-align: left;
+}
+.timage {
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+}
+.tittle-padding {
+  padding: 3% 15% 7%;
+}
+
+
+/* navigation bar */
+.navbar {
+  padding-bottom: 4.5rem;
+  padding-left: 0;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu';
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.navlink {
+  font-size: 1.2rem;
+  font-family: 'Montserrat';
+  font-weight: 300;
+}
+
+/* download buttons */
+.dbtn {
+  margin: 5% 3% 5% 0;
+}
+/* feature datas */
+#features {
+  padding:7% 15%;
+  position: relative;
+}
+.column {
+  padding: 3.5%;
+}
+.ftxt {
+  font-size: 1.5rem;
+}
+.icon {
+  font-size: 4rem;
+  color: #ef8172;
+  margin-bottom: 1.25rem;
+}
+.icon:hover {
+  color: #ff4c68;
+}
+.desc {
+  color: #8f8f8f;
+}
+/* testimnnial  section */
+#testimonials{
+  background-color:#ef8172 ;
+}
+.testimonial-text{
+  line-height: 1.5;
+  font-size: 3rem;
+}
+.carousel-item{
+  padding: 7% 15%;
+}
+
+.test-image{
+  border-radius: 100%;
+  width: 10%;
+  margin: 20px;
+}
+/* presssection */
+#press{
+  background-color: #ef8172;
+  padding-bottom: 3% ;
+}
+.press-logo{
+  width: 15%;
+  margin:20px 20px 50px;
+}
+/* pricing section */
+#pricing{
+  padding:100px;
+}
+.pricetext{
+  line-height: 1.5;
+  font-size: 3.5rem;
+}
+.pricecol{
+  padding:3% 2%;
+}
+
+@media (max-width:991px){
+  #title{
+    text-align: center;
+  }
+  .timage{
+    position: static;
+    transform: rotate(0);
+  }
+}
+/* cta portion */
+#cta{
+  padding:5% 15%;
+}
+/* footer section */
+#footer{
+  padding:5% 15%;
+}
+.foot-logo{
+  margin: 20px 10px 20px;
+}
